@@ -1,0 +1,17 @@
+farm:
+  name: "My Farm"
+
+camera:
+  door: 0
+  weight: 1
+  overhead: 2
+
+recording:
+  save_video: true
+  fps: 30
+
+alarm:
+  enable: true
+
+model:
+  yolo: "models/birds.pt"
