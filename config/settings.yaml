@@ -1,17 +1,25 @@
+app:
+  name: PoultryGuard
+  version: 0.1.0-alpha
+
 farm:
-  name: "My Farm"
+  name: My Farm
 
 camera:
   door: 0
   weight: 1
   overhead: 2
+  inside: 3
 
 recording:
-  save_video: true
+  enabled: true
   fps: 30
+  resolution:
+    width: 1280
+    height: 720
 
 alarm:
-  enable: true
+  enabled: true
 
-model:
-  yolo: "models/birds.pt"
+logging:
+  level: INFO

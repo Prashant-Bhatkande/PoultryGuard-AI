@@ -1,0 +1,4 @@
+cameras:
+  main_camera:
+    source: 0
+    role: detection
